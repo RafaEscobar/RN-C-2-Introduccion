@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Text, View, Button } from 'react-native';
+import { Text, View, Button, TouchableOpacity } from 'react-native';
 
 export const ContadorScreen = () => {
 
@@ -15,11 +15,25 @@ export const ContadorScreen = () => {
             color: 'black',
             textAlign: 'center',
         }}>Contador: {conteo}</Text>
-        <Button 
+        {/* <Button 
             title='+'
-            onPress={ () => setConteo(conteo+1) }
-        
-        />
+            onPress={ () => setConteo(conteo+1) } 
+        /> */}
+
+        <TouchableOpacity
+            onPress={ () => setConteo( conteo + 1 ) }
+        >
+            <View style={{
+                backgroundColor: 'aqua',
+                borderRadius: 100,
+            }}>
+                <Text style={{
+                    fontSize: 20,
+                    color: 'black',
+                    textAlign: 'center',
+                }}>+1</Text>
+            </View>
+        </TouchableOpacity>
     </View>
   )
 }
