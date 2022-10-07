@@ -1,7 +1,8 @@
 import React from 'react'
-import { BoxObjectModelScreen } from './src/screens/BoxObjectModelScreen'
-import { DimensionesScreen } from './src/screens/DimensionesScreen'
-import { PositionRScreen } from './src/screens/PositionRScreen'
+import { FlexScreen } from './src/screens/FlexScreen'
+// import { BoxObjectModelScreen } from './src/screens/BoxObjectModelScreen'
+// import { DimensionesScreen } from './src/screens/DimensionesScreen'
+// import { PositionRScreen } from './src/screens/PositionRScreen'
 // import { ContadorScreen } from './src/screens/ContadorScreen'
 // import { HelloWordScreen } from './src/screens/HelloWordScreen'
 
@@ -11,6 +12,7 @@ export const App = () => {
     // <ContadorScreen />
     // <BoxObjectModelScreen />
     // <DimensionesScreen />
-    <PositionRScreen />
+    // <PositionRScreen />
+    <FlexScreen />
   )
 }
