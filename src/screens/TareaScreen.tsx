@@ -18,14 +18,19 @@ const styles = StyleSheet.create({
    },
    boxMorada: {
     width: 100,
-    height: 100, 
+    height: 100,
     borderWidth: 10,
     borderColor: 'white',
     backgroundColor: '#5856D6',
    },
    boxNaranja: {
     width: 100,
-    height: 100, 
+    height: 100,
+    /*
+    FLEX: 1, hace que este componente abarque todo el espacio sobrante, respetando el espacio de los otros
+    componentes
+    */
+    flex: 1,
     borderWidth: 10,
     borderColor: 'white',
     backgroundColor: '#F0A23B',
