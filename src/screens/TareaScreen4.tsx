@@ -25,6 +25,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#28425B',
     
+    
    },
    boxMorada: {
     width: 100,
@@ -43,6 +44,8 @@ const styles = StyleSheet.create({
     borderWidth: 10,
     borderColor: 'white',
     backgroundColor: '#F0A23B',
+
+
    },
    boxAzul: {
     width: 100,
