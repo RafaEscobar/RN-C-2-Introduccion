@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
    container: {
     flex: 1,
     backgroundColor: '#28425B',
+    justifyContent: 'center'
    },
    boxMorada: {
     width: 100,
@@ -31,7 +32,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#F0A23B',
    },
    boxAzul: {
-    width: 100,
+    // Al quitar esta propiedad hacemos que el componente se alarge en todo lo ANCHO. (Pero solo este elemento lo hara)
+    // width: 100,
     height: 100, 
     borderWidth: 10,
     borderColor: 'white',
