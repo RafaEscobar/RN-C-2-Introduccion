@@ -2,6 +2,7 @@ import React from 'react'
 import { TareaScreen } from './src/screens/TareaScreen'
 import { TareaScreen2 } from './src/screens/TareaScreen2'
 import { TareaScreen3 } from './src/screens/TareaScreen3'
+import { TareaScreen4 } from './src/screens/TareaScreen4'
 // import { FlexScreen } from './src/screens/FlexScreen'
 // import { BoxObjectModelScreen } from './src/screens/BoxObjectModelScreen'
 // import { DimensionesScreen } from './src/screens/DimensionesScreen'
@@ -20,7 +21,8 @@ export const App = () => {
     // ----> TAREAS:
     // <TareaScreen />
     // <TareaScreen2 />
-    <TareaScreen3 />
+    // <TareaScreen3 />
+    <TareaScreen4 />
 
   )
 }
