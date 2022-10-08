@@ -1,5 +1,6 @@
 import React from 'react'
-import { FlexScreen } from './src/screens/FlexScreen'
+import { TareaScreen } from './src/screens/TareaScreen'
+// import { FlexScreen } from './src/screens/FlexScreen'
 // import { BoxObjectModelScreen } from './src/screens/BoxObjectModelScreen'
 // import { DimensionesScreen } from './src/screens/DimensionesScreen'
 // import { PositionRScreen } from './src/screens/PositionRScreen'
@@ -13,6 +14,7 @@ export const App = () => {
     // <BoxObjectModelScreen />
     // <DimensionesScreen />
     // <PositionRScreen />
-    <FlexScreen />
+    // <FlexScreen />
+    <TareaScreen />
   )
 }
